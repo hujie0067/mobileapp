@@ -17,8 +17,8 @@ body{
     "Hiragino Sans",
     Meiryo,
     sans-serif;
-   background:url(../img/backimg.JPG);
-   overflow:cover;
+   background: rgb(233,168,227);
+   overflow: hidden;
   }
 
 p{
@@ -139,12 +139,6 @@ footer> p {
     background-image: url(../img/whitebear.jpg);
     background-size:contain;
 }
-
-
-.js-unclickable {
-    content: '';
-}
-
 /*protect*/
 .js-unclickable {
     pointer-events: none;
@@ -154,7 +148,7 @@ footer> p {
  .js-pen_highLight {
      border: solid 2px red;
  }
- .js-bear_highLight {
+ .js-bear-highLight {
      border: solid 2px blue;
  }
 
@@ -165,14 +159,6 @@ footer> p {
     }
     .bnt-container{
         padding-top: 2px;
-    }
-    /*ヘッダー*/
-    header {
-        font-size: 24px;
-    }
-    
-    #msgtext {
-        font-size: 20px;
     }
 }
 /*********************************************/
